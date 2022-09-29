@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.box-edge {
+    width: 70%;
+    margin: auto;
+    background-image: linear-gradient(lightblue, pink, purple);
+    height: 655px;
+    padding: 50px;
+}
+
+.box {
+    border: solid 1px gray;
+    width: 350px;
+    height: 550px;
+    margin: auto;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.login h1 {
+    padding-top: 40px;
+    text-align: center;
+    font-weight: 800;
+    border-bottom: 1px solid silver;
+}
+
+.login {
+    box-sizing: border-box;
+    padding: 0 40px;
+    position: relative;
+}
+
+.Username form {
+    font-size: 10px;
+    margin: 30px 0;
+}
+
+.Password form {
+    font-size: 10px;
+    margin: 5px 0;
+}
+
+.Forgot-pass {
+    text-align: right;
+    font-size: 10px;
+    padding-bottom: 15px;
+}
+
+.button form button {
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 15px;
+    background-image: linear-gradient(lightblue, pink, purple);
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+}
+
+.button button:hover {
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.login .sign {
+    font-size: 10px;
+    text-align: center;
+    margin: 30px;
+}
+
+.connection {
+    text-align: center;
+}
+
+.fb {
+    border: 1px solid blue;
+    display: inline;
+    border-radius: 50%;
+    background-color: blue;
+    margin-right: 15px;
+}
+
+.fb:hover {
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.fb a i {
+    color: #fff;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+}
+
+.twit {
+    border: 1px solid lightblue;
+    display: inline;
+    border-radius: 50%;
+    margin-right: 15px;
+    background-color: lightblue;
+}
+
+.twit:hover {
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.twit a i {
+    color: blue;
+    width: 30px;
+    height: 30px;
+}
+
+.google {
+    border: 1px solid orangered;
+
+    display: inline;
+    border-radius: 50%;
+    margin-right: 15px;
+    background-color: orangered;
+}
+
+.google:hover {
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.google a i {
+    color: #fff;
+    width: 30px;
+    height: 30px;
+}
+
+.help p {
+    color: grey;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.sign-up p {
+    color: grey;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
